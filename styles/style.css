@@ -316,7 +316,6 @@ body{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-  
 }
 .my-inspiration-vedio-container{
     width: 80%;
@@ -331,9 +330,147 @@ body{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     margin-top: 48px;
-
 }
 .my-inspiration-vedio  {
     width: 90%;
     height: 450px;
 }
+
+/* my current target */
+.my-current-target-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 460px;
+    /* border: 2px solid red; */
+    margin-top: 74px;
+}
+
+
+.my-target-content-tittle {
+    width: 60%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.my-target-content-tittle h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 0;
+    /* border: 2px solid red; */
+}
+.my-target-content-tittle p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.web-language{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 48px;
+    gap: 30px;
+
+}
+.HTML-section{
+    width: 364px;
+    height: 299px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.html-content{
+    width: 80%;
+    /* border: 2px solid red; */
+}
+    
+
+.HTML-section h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.HTML-section a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline black 2px;
+}
+/* css section */
+.CSS-section{
+    width: 364px;
+    height: 299px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.CSS-content{
+   width: 80%;
+}
+    
+.CSS-section h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+.CSS-section a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline black 2px;
+}
+/* Javascrpt section */
+.JavaScript-section{
+    width: 364px;
+    height: 299px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Javascript-content{
+   width: 80%;
+}
+    
+.Javascript-content h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+.Javascript-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline black 2px;
+}
+
+/* support section */
