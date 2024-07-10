@@ -282,3 +282,58 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+/* my inspiration section */
+.my-inspiration-secion-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 775px;
+    /* border: 2px solid red; */
+    margin-top: 74px;
+}
+.my-inspiration-section-content{
+    width: 60%;
+    margin: 0 auto;
+}
+.my-inspiration-section-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.my-inspiration-section-tittle h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 0;
+}
+.my-inspiration-section-tittle p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+.my-inspiration-vedio-container{
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 48px;
+
+}
+.my-inspiration-vedio  {
+    width: 90%;
+    height: 450px;
+}
