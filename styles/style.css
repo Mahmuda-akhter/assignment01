@@ -9,8 +9,6 @@ body{
 }
 /* banner section */
 .banner-section{
-  
-    border: 2px solid red;
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -23,16 +21,13 @@ body{
 .banner-content{
     width: 70%;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 .banner-img{
-    border: 2px solid red;
     width: 240.28px;
     height: 240px;
 }
@@ -52,17 +47,21 @@ body{
     height: 66px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    margin-bottom: 30px;
+}
+.banner-tittle button a{
+
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 17px;
     font-weight: 600;
+    text-decoration: none;
 }
 /* web development section */
 .web-development-container{
     width: 80%;
     margin: 0 auto;
     height: 1395px;
-    border: 2px solid red;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     display: flex;
@@ -76,9 +75,6 @@ body{
     width: 90%;
     height: 1235px;
     margin: 0 auto;
-    /* border: 2px solid red; */
-
-    
 }
 .web-development-tittle{
     display: flex;
@@ -86,8 +82,6 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
 }
 .web-development-tittle h4{
     color: rgb(13, 19, 33);
@@ -110,7 +104,6 @@ body{
     width: 900px;
     height: 300px;
     margin: 0 auto;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,12 +115,10 @@ body{
 .first-section-content{
     width: 90%;
     margin: 0 auto;
-    /* border: 2px solid rgb(0, 255, 115); */
     display: flex;
 }
 .first-section-tittle{
     width: 90%;
-    /* border: 2px solid blue; */
     margin-right: 90px;
 }
  .first-section-content h5{
@@ -136,10 +127,8 @@ body{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 0%;
-
 }
 .first-section-content p{
-   
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -157,19 +146,15 @@ body{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-
-
 } 
 .first-section-img{
     width: 50%;
-     /* border: 2px solid red */
 }
 /* second section */
 .second-section-container{
     width: 900px;
     height: 300px;
     margin: 0 auto;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,20 +164,18 @@ body{
 }
 .second-section-content{
     width: 90%;
-    /* border: 2px solid rgb(0, 255, 115); */
     display: flex;
     gap: 30px;
 }
 .second-section-img{
     width: 223.2px;
     height: 208.85px;
-    /* border: 2px solid red */
+
 }
 
 .second-section-tittle{
     width: 477px;
     height: 220px;
-    /* border: 2px solid blue; */
 
 }
  .second-section-content h5{
@@ -201,7 +184,6 @@ body{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 0%;
-
 }
 .second-section-content p{
    
@@ -228,7 +210,6 @@ body{
     width: 900px;
     height: 300px;
     margin: 0 auto;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,20 +219,18 @@ body{
 }
 .third-section-content{
     width: 90%;
-    /* border: 2px solid rgb(0, 255, 115); */
     display: flex;
     gap: 30px;
 }
 .third-section-img{
     width: 223.2px;
     height: 208.85px;
-    /* border: 2px solid red */
+
 }
 
 .third-section-tittle{
     width: 477px;
     height: 220px;
-    /* border: 2px solid blue; */
 
 }
 .third-section-content h5{
@@ -288,7 +267,6 @@ body{
     width: 90%;
     margin: 0 auto;
     height: 775px;
-    /* border: 2px solid red; */
     margin-top: 74px;
 }
 .my-inspiration-section-content{
@@ -300,7 +278,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     text-align: center;
 }
 .my-inspiration-section-tittle h4{
@@ -321,7 +298,6 @@ body{
     width: 80%;
     height: 550px;
     margin: 0 auto;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,7 +317,6 @@ body{
     width: 90%;
     margin: 0 auto;
     height: 460px;
-    border: 2px solid red;
     margin-top: 74px;
 }
 
@@ -349,7 +324,6 @@ body{
 .my-target-content-tittle {
     width: 60%;
     margin: 0 auto;
-    /* border: 2px solid red; */
     text-align: center;
 }
 .my-target-content-tittle h4{
@@ -359,7 +333,6 @@ body{
     font-weight: 800;
     margin: 0;
     letter-spacing: 0;
-    /* border: 2px solid red; */
 }
 .my-target-content-tittle p{
     color: rgb(13, 19, 33);
@@ -374,7 +347,7 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* border: 2px solid red; */
+
     margin-top: 48px;
     gap: 30px;
 
@@ -382,7 +355,6 @@ body{
 .HTML-section{
     width: 364px;
     height: 299px;
-    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     display: flex;
@@ -392,7 +364,6 @@ body{
 }
 .html-content{
     width: 80%;
-    /* border: 2px solid red; */
 }
     
 
@@ -415,7 +386,6 @@ body{
 .CSS-section{
     width: 364px;
     height: 299px;
-    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     display: flex;
@@ -445,7 +415,6 @@ body{
 .JavaScript-section{
     width: 364px;
     height: 299px;
-    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     background: rgba(255, 76, 30, 0.05);
@@ -478,7 +447,6 @@ body{
     width: 90%;
     margin: 0 auto;
     height: 314px;
-    border: 2px solid red;
     margin-top: 74px;
     background-image: url(../assets/handshake.jpg);
     background-position: center;
@@ -547,7 +515,6 @@ body{
 /* footer section */
 .footer-section{
     height: 100px;
-    border: 2px solid red;
     margin-top: 111px;
     display: flex;
     border-radius: 16px;
